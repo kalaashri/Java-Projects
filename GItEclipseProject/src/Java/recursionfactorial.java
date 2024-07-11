@@ -6,7 +6,7 @@ public class recursionfactorial {
 		
 	
 		
-		public static int fact(int j) 
+		public  int fact(int j) 
 		{
 			if(j<=1)
 				return 1;
@@ -20,7 +20,9 @@ public class recursionfactorial {
 		public static void main(String args[])
 		{
 			int n=4;
-			int g=fact(n);
+			recursionfactorial rf=new recursionfactorial();
+			
+			int g=rf.fact(n);
 			System.out.println(g);
 		}
 		

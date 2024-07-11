@@ -4,7 +4,7 @@ public class NoOfWordsinString {
 	
 	public static void main(String args[]) {
 	
-	String n="Anand Kalaashri Pranav Arjun";
+	String n="Anand Kalaashri Pranav Arjun    ";
 	int len=n.length();
 	System.out.println(len);
 	int count =1;
